@@ -1,0 +1,196 @@
+body {
+  background-image: url('background.png');
+  font-family: "Helvetica Neue";
+}
+
+.box {
+  margin: 6em;
+}
+
+.mainbox {
+  width: 20em;
+  height: 30em;
+  background-color: #E2E1E1;
+  border-radius: 10px 10px 0px 0px;
+  margin: auto;
+  box-shadow: 0px -1px 8px #A8A7A7;
+  overflow: scroll;
+}
+
+.boxtop {
+  margin: auto;
+  width: 20em;
+  height: 3em;
+  border-radius: 10px 10px 0px 0px;
+  background-color: #0C77F8;
+  color: white;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  text-align: center;
+}
+
+.wake-support {
+  display: inline-block;
+  margin-left: 3em;
+  letter-spacing: 1px;
+}
+
+.close {
+  content: url('close2.png');
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  display: inline-block;
+  float: right;
+}
+
+.chatting-time {
+  color: #8A8A8A;
+  font-size: 13px;
+  text-align: center;
+}
+
+.profile-pic {
+  content: url('kathleen.jpg');
+  width: 40px;
+  height: 40px;
+  border: white solid 3px;
+  margin-bottom: 3em;
+  margin-left: 1em;
+  border-radius: 50%;
+  display: inline-block;
+  position: static;
+  z-index: 1;
+}
+
+.active-circle {
+  width: 10px;
+  height: 10px;
+  background-color: #05DE31;
+  border-radius: 50%; 
+  border: white solid 2px;
+  display: inline-block;
+  position: relative;
+  bottom: 50px;
+  left: -15px;
+  margin-bottom: 2em;
+  z-index: 2;
+}
+
+.boxbottom {
+  width: 20em;
+  height: 4em; 
+  background-color: white;
+  margin: auto;
+  border-radius: 0px 0px 10px 10px;
+  text-align: center;
+  overflow-y: hidden;
+  box-shadow: 0px 3px 10px #A8A7A7;
+}
+
+.talk-shape {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-right: 20px solid white;
+  border-bottom: 10px solid transparent;
+  display: inline-block;
+  position: relative;
+  bottom: 50px;
+  left: -10px;
+}
+
+.chatter-box {
+  width: 15em;
+  padding: 1em;
+  background-color: white;
+  position: relative;
+  display: inline-block;
+  border-radius: 1em;
+  left: -15px;
+  font-size: 13px;
+}
+
+.bottom {
+  display: inline-block;
+}
+
+.text-area {
+  border: none;
+  width: 13em;
+  height: 2em;
+  font-size: 15px;
+  margin-top: 0;
+  margin-left: 0.5em;
+  outline: none;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: #C6C5C5;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color: #C6C5C5;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color: #C6C5C5;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #C6C5C5;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color: #C6C5C5;
+}
+
+.send-button {
+  margin-top: 1em;
+  margin-left: 0.7em;
+  width: 6em;
+  height: 2.5em;
+  color: white;
+  font-size: 14px;
+  border: none;
+  border-radius: 60px;
+  background: linear-gradient(to bottom, #33ccff 0%, #3366ff 100%);
+  cursor: pointer;
+  outline: none;
+}
+
+.new-chatbox {
+  text-align: center;
+  margin-top: 0.5em;
+}
+
+.newtext {
+  width: 14em;
+  padding: 1em;
+  background-color: #F9FEC5;
+  border-radius: 1em;
+  font-size: 13px;
+  margin: auto;
+  display: inline-block;
+}
+
+.anonymous {
+  content: url('anonymous-icon.jpg');
+  width: 40px;
+  height: 40px;
+  border: white solid 3px;
+  border-radius: 50%; 
+  position: relative;
+  display: inline-block;
+  bottom: -15px;
+}
+
+.anonymous-talk {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-left: 20px solid #F9FEC5;
+  border-bottom: 10px solid transparent;
+  display: inline-block;
+  position: relative;
+  bottom: -5px;
+  left: -4px;
+}
